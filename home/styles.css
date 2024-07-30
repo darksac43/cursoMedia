@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #1e1e1e; /* Fondo gris oscuro */
+    color: #e0e0e0; /* Texto gris claro */
+}
+
+header {
+    background: #007bff; /* Azul brillante */
+    color: #fff;
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+
+header h1 {
+    font-size: 1.5rem;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+header nav ul li {
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.1em;
+}
+
+.hero {
+    text-align: center;
+    padding: 50px 20px;
+    background: #333; /* Gris oscuro */
+    margin-bottom: 20px;
+}
+
+.hero .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+
+.hero h2 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+    color: #ffffff; /* Blanco */
+}
+
+.hero p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #007bff; /* Azul brillante */
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.courses {
+    text-align: center;
+    padding: 20px;
+}
+
+.courses .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+
+.courses h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #ffffff; /* Blanco */
+}
+
+.course-list {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.course-item {
+    background: #2e2e2e; /* Gris oscuro */
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Sombra negra con opacidad */
+    text-align: left;
+    width: 30%;
+    text-decoration: none;
+    color: #e0e0e0; /* Texto gris claro */
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.course-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.7); /* Sombra negra más pronunciada */
+}
+
+.course-item h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: #ffffff; /* Blanco */
+}
+
+.course-item p {
+    font-size: 1em;
+}
+
+footer {
+    background: #007bff; /* Azul brillante */
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}

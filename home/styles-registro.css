@@ -1,0 +1,123 @@
+/* Estilos generales */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #1e1e1e; /* Fondo gris oscuro */
+    color: #e0e0e0; /* Texto gris claro */
+}
+
+/* Estilos del header */
+header {
+    background: #007bff; /* Azul brillante */
+    color: #fff;
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+
+header h1 {
+    font-size: 1.8rem;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+header nav ul li {
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.1em;
+}
+
+/* Estilos de la página de registro */
+.registration-form {
+    padding: 50px 20px;
+    background: #2e2e2e; /* Gris oscuro */
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5); /* Sombra negra con opacidad */
+    margin: 20px auto;
+    max-width: 600px;
+}
+
+.registration-form .container {
+    padding: 0 2rem;
+}
+
+.registration-form h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #ffffff; /* Blanco */
+    text-align: center;
+}
+
+.registration-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.registration-form label {
+    font-size: 1.2em;
+    margin-bottom: 5px;
+    color: #e0e0e0; /* Gris claro */
+}
+
+.registration-form input {
+    padding: 10px;
+    font-size: 1em;
+    margin-bottom: 5px;
+    border: 1px solid #555; /* Gris oscuro */
+    border-radius: 5px;
+    background-color: #1e1e1e; /* Fondo gris oscuro */
+    color: #e0e0e0; /* Texto gris claro */
+}
+
+.registration-form button {
+    background: #007bff; /* Azul brillante */
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+    margin-top: 10px;
+}
+
+.registration-form button:hover {
+    background: #0056b3; /* Azul más oscuro */
+}
+
+/* Estilos del footer */
+footer {
+    background: #007bff; /* Azul brillante */
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 20px;
+}
